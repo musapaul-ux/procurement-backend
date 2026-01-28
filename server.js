@@ -90,7 +90,7 @@ let server = http.createServer((req, res) => {
         res.writeHead(404, {
             "content-type": "application/json"
         })
-        res.end("Server running but Page not found!\n please check the url and try again.");
+        res.end("Server running but Page not found!\n please check the url and try again. For our case /kgl/procurement");
     }
 })
 
